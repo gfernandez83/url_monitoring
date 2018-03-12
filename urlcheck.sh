@@ -30,9 +30,3 @@ function url_result {
 
 url_test
 url_result
-
-
-
-
-
-
