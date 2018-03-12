@@ -16,12 +16,12 @@ function url_test {
 
 function url_result {
 	cat /dev/null > $PTR
-	echo -e "Request URL;Status Code;Game Vendor" >> $PTR
+	echo -e "Request URL;Status Code" >> $PTR
 	while read pto; do
 		x=$(echo $pto | awk '{print $1}')
 		y=$(echo $pto | awk '{print $2}')
 		if [[ "$x" == "$a" ]] || [[ "$x" == "$b" ]] || [[ "$x" == "$c" ]] || [[ "$x" == "$d" ]]; then
-			echo -e "$y;$x;PT" >> $PTR
+			echo -e "$y;$x" >> $PTR
 		else
 			true
 		fi
