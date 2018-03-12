@@ -1,7 +1,7 @@
 <?php
 
 /* 
-please this script on your index.php file under nginx root directory - usually /var/www/html
+place this script on your index.php file under nginx root directory - usually /var/www/html
 this will convert csv file into a table. referenced from https://www.zimplicit.se/en/knowledge/convert-csv-file-html-table-php.
 */
 
