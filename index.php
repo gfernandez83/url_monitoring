@@ -6,7 +6,7 @@ this will convert csv file into a table. referenced from https://www.zimplicit.s
 */
 
 $row = 1;
-if (($handle = fopen("/home/janinep/Documents/SWT_Work/CMS_Monitoring/pt_result.csv", "r")) !== FALSE) {
+if (($handle = fopen("/home/user/Documents/URL_Monitoring/pt_result.csv", "r")) !== FALSE) {
    
     echo '<table border="2">';
    
